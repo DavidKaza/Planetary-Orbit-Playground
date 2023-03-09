@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link type="text/css" href="styles/styles1.css" rel="stylesheet" />
+  </head>
+  <body>
+    <form>
+      <div>
+        <div>
+          <label for="numOfCircles">Max Planets</label
+          ><input id="numOfCircles" type="range" value="10" min="1" max="25" />
+        </div>
+        <div>
+          <label for="tailLength">Tail</label
+          ><input id="tailLength" type="range" value="15" min="0" max="25" />
+        </div>
+      </div>
+      <div id="color">
+        <div>
+          <input id="colors" type="range" value="150" min="0" max="360" />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="size">Size</label>
+          <input id="size" type="range" value="10" min="5" max="25" />
+        </div>
+        <div>
+          <label for="maxVel">maxVel</label>
+          <input id="maxVel" type="range" value="15" min="0" max="20" />
+        </div>
+      </div>
+      <div>
+        <input id="fs" type="button" value="Full Screen" />
+      </div>
+      <div>
+        <input id="playPause" type="button" value="play/pause" />
+      </div>
+    </form>
+    <canvas id="can"></canvas>
+    <script src="js/controls.js"></script>
+    <script src="js/Vector.js"></script>
+    <script src="js/Circle.js"></script>
+    <script src="js/canvas.js"></script>
+  </body>
+</html>
