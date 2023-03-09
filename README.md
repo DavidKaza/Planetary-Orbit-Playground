@@ -1,6 +1,6 @@
 # Planetary-Orbit-Playground
 
-##Planetary orbit gravity simulator.
+## Planetary orbit gravity simulator.
 
 *Created purely in JavaScript, HTML, and CSS*
 
